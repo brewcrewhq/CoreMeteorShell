@@ -16,6 +16,9 @@
                     <li class="active"><a href="#">Home</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    {{#if isInRole 'Administrator'}}
+                    <li><a href="#">Admin</a></li>
+                    {{/if}}
                     {{> loginButtons }}
                 </ul>
             </div><!--/.nav-collapse -->
