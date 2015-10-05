@@ -5,6 +5,3 @@
 
 ## Directory-based project format:
 .idea/
-
-## Remove .meteor directory from git
-.meteor/
