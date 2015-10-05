@@ -5,3 +5,6 @@
 
 ## Directory-based project format:
 .idea/
+
+settings.json
+settings.development.json
