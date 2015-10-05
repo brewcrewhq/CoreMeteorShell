@@ -1,0 +1,7 @@
+#navbar {
+    overflow: hidden;
+}
+.navbar-nav > li > a > span.menu-icon {
+    display: block;
+    font-size: 1.8em;
+}
